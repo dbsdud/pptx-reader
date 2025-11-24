@@ -1,0 +1,12 @@
+{
+  "name": "pptx-reader",
+  "description": "Read and extract content from PowerPoint (.pptx) files",
+  "version": "1.0.0",
+  "input": {
+    "file_path": {
+      "type": "string",
+      "description": "Path to the PowerPoint file to read"
+    }
+  },
+  "command": "python read_pptx.py \"{{file_path}}\""
+}
